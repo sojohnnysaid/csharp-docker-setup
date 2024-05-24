@@ -1,0 +1,5 @@
+/Users/john/Projects/csharp_container_test/HelloWorldApp/out/HelloWorldApp
+/Users/john/Projects/csharp_container_test/HelloWorldApp/out/HelloWorldApp.dll
+/Users/john/Projects/csharp_container_test/HelloWorldApp/out/HelloWorldApp.deps.json
+/Users/john/Projects/csharp_container_test/HelloWorldApp/out/HelloWorldApp.runtimeconfig.json
+/Users/john/Projects/csharp_container_test/HelloWorldApp/out/HelloWorldApp.pdb

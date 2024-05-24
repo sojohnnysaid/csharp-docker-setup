@@ -1,0 +1,18 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY ./HelloWorldApp/*.csproj ./HelloWorldApp/
+RUN dotnet restore ./HelloWorldApp/HelloWorldApp.csproj
+
+# Copy everything else and publish
+COPY ./HelloWorldApp ./HelloWorldApp
+RUN dotnet publish ./HelloWorldApp -c Release -o ./HelloWorldApp/out
+
+# Final stage/runtime
+FROM mcr.microsoft.com/dotnet/runtime:8.0
+WORKDIR /app
+COPY --from=build /app/HelloWorldApp/out ./
+CMD ["dotnet", "HelloWorldApp.dll"]
+

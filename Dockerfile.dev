@@ -1,0 +1,14 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS dev
+
+WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY ./HelloWorldApp/*.csproj ./HelloWorldApp/
+RUN dotnet restore ./HelloWorldApp/HelloWorldApp.csproj
+
+# Copy everything else
+COPY ./HelloWorldApp ./HelloWorldApp
+
+# Command to run the application using dotnet watch for live reloading
+CMD ["dotnet", "watch", "--project", "HelloWorldApp", "run"]
+

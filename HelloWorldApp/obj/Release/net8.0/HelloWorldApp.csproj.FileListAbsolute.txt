@@ -1,0 +1,14 @@
+/Users/john/Projects/csharp_container_test/HelloWorldApp/bin/Release/net8.0/HelloWorldApp
+/Users/john/Projects/csharp_container_test/HelloWorldApp/bin/Release/net8.0/HelloWorldApp.deps.json
+/Users/john/Projects/csharp_container_test/HelloWorldApp/bin/Release/net8.0/HelloWorldApp.runtimeconfig.json
+/Users/john/Projects/csharp_container_test/HelloWorldApp/bin/Release/net8.0/HelloWorldApp.dll
+/Users/john/Projects/csharp_container_test/HelloWorldApp/bin/Release/net8.0/HelloWorldApp.pdb
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.AssemblyInfoInputs.cache
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.AssemblyInfo.cs
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.csproj.CoreCompileInputs.cache
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.dll
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/refint/HelloWorldApp.dll
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.pdb
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/HelloWorldApp.genruntimeconfig.cache
+/Users/john/Projects/csharp_container_test/HelloWorldApp/obj/Release/net8.0/ref/HelloWorldApp.dll
